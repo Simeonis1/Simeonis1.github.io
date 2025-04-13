@@ -1,0 +1,20 @@
+body {
+    background-color:antiquewhite;
+    color: black;
+}
+
+
+.engine {
+    width: 300px;
+    height: normal;
+}
+
+.design-img {
+    width: 300px;
+    height: normal;
+}
+
+.gallery-images img {
+    width: 350px;
+    height: 200px;
+}
