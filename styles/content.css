@@ -1,5 +1,5 @@
 
-.front-main {
+aside {
     background-color: red;
     position: relative;
     overflow: hidden;
@@ -33,19 +33,18 @@
     font-size: 24px;
 }
 
-.club-intro {
-    margin-top: 2%;
-    display: grid;
-    grid-template-columns: 70%;
+article {
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
     gap: 15%;
-    justify-content: center; 
-    
+    margin: 2% 10%;
+    padding: 2%;
 }
   
 .club-intro-paragraph {
     background-color: #f8f8f8;
     border-radius: 10px;
-    padding: 2%;
 }
 
 .club-intro-paragraph h2{
@@ -54,7 +53,7 @@
     font-style: italic;
 }
 
-.club-intro-paragraph p{
+article p{
     padding-top: 2%;
     font-size: 24px;
 }
