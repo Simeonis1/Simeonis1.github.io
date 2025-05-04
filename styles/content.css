@@ -9,6 +9,7 @@
     display: block;
     margin-left: auto;
     width: 1600px;
+    height: 900px;
     mask-image: linear-gradient(to left, black 20%, transparent 100%);
 }
 
