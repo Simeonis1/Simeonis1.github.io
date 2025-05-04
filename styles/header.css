@@ -39,7 +39,7 @@ header {
     font-size: 16px;
 }
   
-.main-menu nav ul {
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -50,7 +50,7 @@ header {
     background-color: rgb(255, 255, 255);
 }
   
-.main-menu nav ul li a {
+nav ul li a {
     color: rgb(33, 31, 31);
     padding: 0px 40px;
     text-decoration: none;
@@ -59,7 +59,7 @@ header {
     transition: color 0.3s;
 }
   
-.main-menu nav ul li a:hover {
+nav ul li a:hover {
     color: red;
 }
   
