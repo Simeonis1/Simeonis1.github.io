@@ -57,4 +57,26 @@ article p{
     padding-top: 2%;
     font-size: 24px;
 }
-  
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f8f8f8;
+    margin: 2% 10%;
+    padding: 2%;
+}
+
+.quiz h2 {
+    margin-bottom: 10px;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.question input {
+    margin-right: 10px;
+}
