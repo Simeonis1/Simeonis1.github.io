@@ -15,11 +15,13 @@ header {
     height: 70px;
     margin: 6px 30px;
 }
+
   
 .club-name {
     font-weight: bold;
     font-size: 14px;
     margin: auto;
+    padding: 10px;
     text-align: center;
 }
   

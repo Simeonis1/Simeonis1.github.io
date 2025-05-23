@@ -1,0 +1,118 @@
+article{
+    background: none;
+    margin: 2% 15%;
+    margin-bottom: 500px;
+}
+
+.players-Line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.players-Line hr {
+    width: 700px;
+    height: 1px;
+    text-align: center;
+    flex: 1;
+    
+
+}
+
+.players-Line p {
+    padding-top: 0;
+    padding: 0px 45px;
+    font-style: bold;
+    font-size: 28px;
+    color: rgb(77, 77, 77);
+}
+
+.players {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start;
+    margin: 3% 0%;
+}
+
+.players-box {
+    flex: 0 1 calc((100% - 90px) / 4); /* 3 gap-а по 20px между 4 елемента */
+    max-width: calc((100% - 90px) / 4);
+    height: 328px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.players-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1%;
+}
+
+.players-name {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    padding: 4px 8px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-style: italic;
+    text-align: left;
+}
+
+.players-name p{
+    font-size: 18px;
+}
+
+.players-name span{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.players-name img {
+    width: 50px;
+    height: 33px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  
+    
+}
+
+.players-number{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.players-number span {
+    color: #c81617;
+    opacity: 0.80;
+    font-style: italic;
+}
+
+
+.players-box.shadow img{
+ filter: brightness(85%);
+ 
+}
+
+.captain{
+   position: absolute;
+   top: 8px;
+   right: 8px;
+   color: rgb(229, 255, 0);
+   font-weight: bold;
+   font-style: italic;
+   text-decoration: underline;
+}
