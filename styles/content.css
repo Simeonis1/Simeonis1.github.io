@@ -26,7 +26,6 @@ aside {
     line-height: 1.5;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
     text-transform: uppercase;
-
 }
 
 .front-text span {
@@ -50,6 +49,49 @@ article {
 .club-intro-paragraph h2{
     text-align: center;
     font-size: 50px;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 200px;
+    background: #171717;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+footer .first-text {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+footer .social-icons img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: white;
+    transition: transform 0.4s ease;
+}
+
+footer .social-icons img:hover {
+    transform: scale(1.4);
+}
+
+footer .authorisation {
+    color: #ccc;
+    font-size: 15px;
+    text-align: center;
     font-style: italic;
 }
 
@@ -79,4 +121,402 @@ article p{
 
 .question input {
     margin-right: 10px;
+}
+
+article.trophies{
+    background: none;
+    margin: 0%;
+    padding: 0%;
+
+}   
+
+.trophies-row{
+    margin: 0% 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.trophies-row div {
+    position: relative;
+}
+
+.trophies-row img{
+    position: relative;
+    display: inline-block;
+    height: auto;
+    object-fit: cover;
+    max-width: 350px;
+    width: 85%;
+}
+
+.trophies-row p {
+    position: absolute;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    color: #c81617;
+    bottom: 25px;
+    right: 10px;
+    font-size: 100px;
+}
+
+.trophies-information {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px 0px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.trophies-information > div {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.5);
+  margin: 0 15%;
+}
+
+.trophies-information h2 {
+  padding: 20px 40px;
+  font-size: 28px;
+  background-color: #ffffff;
+  color: #222222;
+  border-bottom: 1px solid #ddd;
+}
+
+.trophies-information > div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 20px 40px;
+}
+
+.trophies-information img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.trophies-information p {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  line-height: 2;
+  font-size: 20px;
+  color: #222222;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+}
+
+.legend-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #f8f8f8;
+    margin: 0% 5%;
+    border-bottom: 5px solid #1e1e1e;
+}
+
+.legend-header h1 {
+    font-size: 36px;
+    color: #e9630a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+article.legends{
+    position: relative;
+    margin: 0% 5%;
+    gap: 30px;
+}
+
+.legends::after{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: #414141;
+    top: 0;
+    left: 50%;
+}
+
+.container{
+    position: relative;
+    width: 50%;
+    padding: 0px 20px;
+}
+
+.left-container {
+    left: 0;
+}
+
+.right-container{
+    left: 50%;
+}
+
+.central-container{
+    left: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.final-container{
+    background: #f8f8f8;
+    margin: 0% 5%;
+}
+
+.text-box{
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    gap: 30px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0 , 0.8);
+}
+
+.text-box div {
+    max-width: 600px;
+}
+
+.text-box img {
+    width: 100%;
+    height: auto;
+    max-width: 250px; 
+    padding: 10px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.text-box h2{
+    padding-top: 10px;
+    color: #e9630a;
+}
+
+.text-box p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #ddd;
+}
+
+.text-box hr {
+    clear: both;
+    visibility: hidden;
+}
+
+
+article.history{
+    background: none;
+    padding: 0 7%; 
+    margin: 0 auto;
+    max-width: 2000px; 
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.history h2 {
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    color: #c81617;
+    text-shadow: 2px 2px 8px rgba(200, 22, 23);
+    font-size: 250px;
+}
+
+.history h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.history-first-row .year{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.vertical-line{
+    border: 2px solid rgba(150, 150, 150, 0.6);
+    height: 500px;   
+}
+
+.history-first-row .information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.history-first-row .information img{
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.history-first-row .information div{
+    padding-left: 70px
+}
+
+.history-first-row .information h3{
+    font-size: 24px;
+    color: #333;
+}
+
+
+.history-first-row .information p{
+    max-width: 800px;
+    font-size: 16px;
+    line-height: 2;
+    color: #333;
+}
+
+
+.history-second-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+
+.history-second-row .information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #111;
+  color: #f5f5f5;
+  padding: 50px 3%;
+ 
+}
+
+.history-second-row .information > div {
+    flex: 1 1 0;
+    min-width: 300px;
+    max-width: calc(90% - 550px);
+    box-sizing: border-box;
+}   
+
+
+.history-second-row .information h3{
+    font-size: 24px;
+    color: #d12e2e;
+}
+
+.history-second-row .information p{
+    font-size: 16px;
+    line-height: 2;
+    word-wrap: break-word; 
+    width: 100%;           
+}
+
+.history-second-row .information img {
+    width: 550px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    align-self: center;
+}
+
+
+.history-second-row .year{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.history-second-row .year img {
+    width: 1000px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.history-second-row .year div {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.history-second-row .year div p{
+    max-width: 500px;
+    font-style: italic;
+    color: #333;
+    text-align: center;
+    align-items: center;
+}
+
+.history-third-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 100px;
+}
+
+.history-third-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.history-third-row .information {
+    display: flex;
+    flex-direction: column;
+}
+
+.history-third-row .information h3 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.history-third-row .busby-wrapper {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+}
+
+.history-third-row .busby-wrapper img {
+    flex-grow: 1;
+    max-width: 45%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.history-third-row .busby-column {
+    width: 50%;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.history-third-row .busby-column .text-image {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.history-third-row .busby-column .text-image p {
+  padding-top: 0px;
+  width: 60%;
+  font-size: 20px;
+  line-height: 2;
+  word-wrap: break-word;
+}
+
+.history-third-row .busby-column .text-image img {
+  width: 40%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.history-third-row .secondary-text {
+    font-size: 20px;
+    line-height: 2;
+    align-items: center;
 }

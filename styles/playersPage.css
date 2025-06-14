@@ -1,7 +1,6 @@
 article{
     background: none;
-    margin: 2% 15%;
-    margin-bottom: 500px;
+    margin: 2% 13%;
 }
 
 .players-Line{
@@ -9,8 +8,6 @@ article{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
 .players-Line hr {
@@ -18,8 +15,6 @@ article{
     height: 1px;
     text-align: center;
     flex: 1;
-    
-
 }
 
 .players-Line p {
@@ -82,8 +77,6 @@ article{
     margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
-  
-    
 }
 
 .players-number{
