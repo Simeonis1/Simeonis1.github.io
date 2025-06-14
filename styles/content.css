@@ -113,6 +113,11 @@ article p{
     margin-bottom: 10px;
 }
 
+.quiz button {
+    width: 100px;
+    padding: 10px;
+}
+
 .question {
     display: flex;
     flex-direction: column;
